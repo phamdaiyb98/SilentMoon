@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_background"
+    tools:context=".views.MusicActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlTopButton_Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonExit_Music"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/music_exit" />
+
+        <ImageButton
+            android:id="@+id/imageButtonFavorite_Music"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toStartOf="@+id/imageButtonSave_Music"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/music_favorite" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSave_Music"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/music_save" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <TextView
+            android:id="@+id/textViewVoice_Music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Night Island"
+            android:textAlignment="center"
+            android:textColor="#E6E7F2"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewMeditateCourse_Music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helvetica_neue_medium"
+            android:letterSpacing="0.05"
+            android:text="@string/sleep_music_upper"
+            android:textAlignment="center"
+            android:textColor="#98A1BD"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTime_Music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imageButtonPlay_Music"
+                android:layout_width="109dp"
+                android:layout_height="109dp"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/music_play" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPre15_Music"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="50dp"
+                android:layout_toStartOf="@+id/imageButtonPlay_Music"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/music_pre15" />
+
+            <ImageButton
+                android:id="@+id/imageButtonNext15_Music"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:layout_toEndOf="@+id/imageButtonPlay_Music"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/music_next15" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="58dp"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/seekBarTime_Music"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:progressTint="@color/progress_tint_music"
+                android:thumbTint="@color/thumb_tint_music" />
+
+            <TextView
+                android:id="@+id/textViewCurrentTime_Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBarTime_Music"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/helvetica_neue_medium"
+                android:text="01:30"
+                android:textColor="#E6E7F2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTotalTime_Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBarTime_Music"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/helvetica_neue_medium"
+                android:text="45:00"
+                android:textColor="#E6E7F2"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

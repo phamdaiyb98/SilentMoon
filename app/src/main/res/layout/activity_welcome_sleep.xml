@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_sleep_background"
+    tools:context=".views.WelcomeSleepActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <TextView
+            android:id="@+id/textView1_WelcomeSleep"
+            style="@style/font_bold_30_center_001_e6e7f2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_sleep"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            style="@style/fontLight_16_center_ebeaec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1_WelcomeSleep"
+            android:text="@string/explore_the_new"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="176dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonSignUp_WelcomeSleep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/custom_button_sign_up"
+        android:text="@string/get_started"
+        android:textAppearance="@style/fontMedium_14_005_f6f1fb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

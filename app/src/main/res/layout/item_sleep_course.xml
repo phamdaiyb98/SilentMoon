@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewSleepCourseItem"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sleep_course1" />
+
+    <TextView
+        android:id="@+id/textViewSleepCourseNameItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Night Island"
+        android:textColor="#E6E7F2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSleepCourseTimeItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/helvetica_neue_medium"
+        android:letterSpacing="0.05"
+        android:text="45 MIN • SLEEP MUSIC"
+        android:textColor="#98A1BD"
+        android:textSize="11sp" />
+
+</LinearLayout>

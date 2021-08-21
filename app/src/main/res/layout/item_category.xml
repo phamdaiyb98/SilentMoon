@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="24dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewCategoryItem"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/focus_category" />
+
+    <TextView
+        android:id="@+id/textViewItemCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Focus"
+        android:textAppearance="@style/font_bold_18_3f414e" />
+
+    <TextView
+        android:id="@+id/textViewItemCategoryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/meditation_upper"
+        android:textAppearance="@style/fontMedium_11_005_a1a4b2" />
+
+</LinearLayout>

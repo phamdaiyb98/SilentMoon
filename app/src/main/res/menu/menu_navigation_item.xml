@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/bottom_icon_home_enabled"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/action_sleep"
+        android:icon="@drawable/bottom_icon_sleep_disabled"
+        android:title="@string/sleep" />
+    <item
+        android:id="@+id/action_meditate"
+        android:icon="@drawable/bottom_icon_meditate_disabled"
+        android:title="@string/meditate" />
+
+    <item
+        android:id="@+id/action_music"
+        android:icon="@drawable/bottom_icon_music_disabled"
+        android:title="@string/music" />
+
+    <item
+        android:id="@+id/action_group"
+        android:icon="@drawable/bottom_icon_group_disabled"
+        android:title="@string/group" />
+</menu>

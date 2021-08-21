@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+    <!--    all-->
+    <color name="item_active">#8E97FD</color>
+    <color name="item_inactive">#A0A3B1</color>
+
+    <!--    home, meditate, music, afsar-->
+    <color name="topic_button_active">#8E97FD</color>
+    <color name="topic_button_inactive">#A0A3B1</color>
+    <color name="topic_text_active">#3F414E</color>
+    <color name="topic_text_inactive">#A0A3B1</color>
+    <color name="bot_nav_background_color">#FFFFFFFF</color>
+    <color name="bot_nav_text_active">#8E97FD</color>
+    <color name="bot_nav_text_inactive">#A0A3B1</color>
+
+
+    <!--    sleep-->
+    <color name="sleep_topic_button_active">#8E97FD</color>
+    <color name="sleep_topic_button_inactive">#586894</color>
+    <color name="sleep_topic_text_active">#E6E7F2</color>
+    <color name="sleep_topic_text_inactive">#98A1BD</color>
+    <color name="sleep_bot_nav_background_color">#F2031340</color>
+    <color name="sleep_button_active">#8E97FD</color>
+    <color name="sleep_button_inactive">#586894</color>
+
+    <!-- music, music_v2 -->
+    <color name="progress_tint_music">#E6E7F2</color>
+    <color name="thumb_tint_music">#8E97FD</color>
+    <color name="progress_tint_music_v2">#3F414E</color>
+    <color name="thumb_tint_music_v2">#3F414E</color>
+
+    <color name="picker_background">#F5F5F9</color>
+    <color name="picker_button_background_selected">#3F51B5</color>
+    <color name="picker_button_background">@android:color/white</color>
+    <color name="picker_button_background_innactive">#BDBDBD</color>
+    <color name="picker_default_text_color">#A1A4B2</color>
+    <color name="picker_default_selected_text_color">#263238</color>
+    <color name="picker_default_selector_color">#646464</color>
+    <color name="picker_default_divider_color">#E1E1E5</color>
+
+</resources>

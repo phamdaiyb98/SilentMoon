@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haui.phamdai.silentmoon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <activity android:name=".views.MusicActivity" />
+        <activity android:name=".views.PlayOptionActivity" />
+        <activity android:name=".views.WelcomeSleepActivity" />
+        <activity android:name=".views.Music2Activity" />
+        <activity android:name=".views.CourseDetailsActivity" />
+        <activity android:name=".views.HomeActivity" />
+        <activity android:name=".views.RemindersActivity" />
+        <activity android:name=".views.ChooseTopicActivity" />
+        <activity android:name=".views.WelcomeActivity" />
+        <activity android:name=".views.SignUpActivity" />
+        <activity android:name=".views.SignInActivity" />
+        <activity android:name=".SignInAndSignUpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

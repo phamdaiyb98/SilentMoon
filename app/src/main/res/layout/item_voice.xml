@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <ImageButton
+        android:id="@+id/imageButtonVoice"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/course_details_bottom_icon_play" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewVoiceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Focus Attention"
+            android:textAppearance="@style/font_bold_3f414e"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewVoiceTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 MIN"
+            android:textAppearance="@style/fontMedium_11_005_a1a4b2" />
+    </LinearLayout>
+</LinearLayout>

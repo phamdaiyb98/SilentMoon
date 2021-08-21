@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Silent Moon</string>
+    <string name="silent">Silent</string>
+    <string name="moon">Moon</string>
+    <string name="already_hav">ALREADY HAVE AN ACCOUNT?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="thousand_of">Thousand of people are using silent moon \nfor smalls meditation</string>
+    <string name="we_are_what">We are what we do</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="continue_fb">CONTINUE WITH FACEBOOK</string>
+    <string name="continue_gg">CONTINUE WITH GOOGLE</string>
+    <string name="or_log_in_email">OR LOG IN WITH EMAIL</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="your_name">Your name</string>
+    <string name="i_have_read">i have read the</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="create_your_acc">Create your account</string>
+    <string name="hi">Hi</string>
+    <string name="welcome">Welcome</string>
+    <string name="to_silent_moon">to Silent Moon</string>
+    <string name="explore_the">Explore the app, Find some peace of mind to prepare for meditation.</string>
+    <string name="what_brings1">What Brings you</string>
+    <string name="what_brings2">to Silent Moon?</string>
+    <string name="choose_a_topic">choose a topic to focus on:</string>
+    <string name="what_time">What time would you \nlike to meditate?</string>
+    <string name="any_time">Any time you can choose but \nWe recommend first thing in the morning.</string>
+    <string name="which_day">Which day would you \nlike to meditate?</string>
+    <string name="everyday_is_best">Everyday is best, but we recommend picking \nat least five.</string>
+    <string name="save">SAVE</string>
+    <string name="no_thanks">NO THANKS</string>
+    <string name="home">Home</string>
+    <string name="sleep">Sleep</string>
+    <string name="meditate">Meditate</string>
+    <string name="music">Music</string>
+    <string name="music_upper">MUSIC</string>
+    <string name="group">Afsar</string>
+    <string name="good_morning">Good Morning, Afsar</string>
+    <string name="we_wish_you">We Wish you have a good day</string>
+    <string name="basics">Basics</string>
+    <string name="course">COURSE</string>
+    <string name="relaxation">Relaxation</string>
+    <string name="min_3_10">3–10 MIN</string>
+    <string name="start">START</string>
+    <string name="daily_thought">Daily Thought</string>
+    <string name="meditation_upper">MEDIATION • </string>
+    <string name="recommend_for_u">Recommend for you</string>
+    <string name="Ease_the_mind">Ease the mind into a restful night’s sleep with \nthese deep, ambient tones.</string>
+    <string name="pick_a_narrator">Pick a Narrator</string>
+    <string name="male_voice">MALE VOICE</string>
+    <string name="female_voice">FEMALE VOICE</string>
+
+    <!--    meditate_v2-->
+    <string name="daily_calm">Daily Calm</string>
+    <string name="we_can_learn_how_to">we can learn how to recognize when our minds \nare doing their normal everyday acrobatics.</string>
+
+    <!--    welcome sleep-->
+    <string name="welcome_to_sleep">Welcome to Sleep</string>
+    <string name="explore_the_new">Explore the new king of sleep. It uses sound\n
+    and visualization to create perfect conditions \nfor refreshing sleep.</string>
+
+    <!--    sleep fragment-->
+    <string name="sleep_stories">Sleep Stories</string>
+    <string name="soothing_bedtime_stories">Soothing bedtime stories to help you fall\ninto a deep and natural sleep</string>
+
+    <!--    play option-->
+    <string name="related">Related</string>
+    <string name="play">PLAY</string>
+
+    <string name="sleep_music_upper">SLEEP MUSIC</string>
+    <string name="sleep_music">Sleep Music</string>
+
+    <string name="picker_today">Today</string>
+    <string name="picker_am">AM</string>
+    <string name="picker_pm">PM</string>
+</resources>
