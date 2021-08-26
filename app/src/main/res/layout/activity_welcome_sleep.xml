@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome_sleep_background"
-    tools:context=".views.WelcomeSleepActivity">
+    android:background="@drawable/welcome_sleep_background">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -36,7 +35,7 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/buttonSignUp_WelcomeSleep"
+        android:id="@+id/buttonGetStarted_WelcomeSleep"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16sp"

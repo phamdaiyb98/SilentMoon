@@ -49,4 +49,6 @@
     <color name="picker_default_selector_color">#646464</color>
     <color name="picker_default_divider_color">#E1E1E5</color>
 
+    <!--    user profile-->
+    <color name="user_profile_divider_color">#00b0e7</color>
 </resources>

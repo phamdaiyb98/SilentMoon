@@ -20,7 +20,7 @@ public class SignUpActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.buttonGetStarted_SignUp).setOnClickListener(v -> {
-            Intent intent = new Intent(this, WelcomeActivity.class);
+            Intent intent = new Intent(this, ChooseTopicActivity.class);
             startActivity(intent);
         });
     }

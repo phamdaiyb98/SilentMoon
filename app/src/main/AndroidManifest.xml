@@ -9,24 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".views.MusicActivity" />
-        <activity android:name=".views.PlayOptionActivity" />
-        <activity android:name=".views.WelcomeSleepActivity" />
-        <activity android:name=".views.Music2Activity" />
-        <activity android:name=".views.CourseDetailsActivity" />
-        <activity android:name=".views.HomeActivity" />
-        <activity android:name=".views.RemindersActivity" />
-        <activity android:name=".views.ChooseTopicActivity" />
-        <activity android:name=".views.WelcomeActivity" />
-        <activity android:name=".views.SignUpActivity" />
-        <activity android:name=".views.SignInActivity" />
-        <activity android:name=".SignInAndSignUpActivity">
+        <activity android:name=".views.UserProfileActivity"></activity>
+        <activity android:name=".views.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".views.MusicActivity" />
+        <activity android:name=".views.PlayOptionActivity" />
+        <activity android:name=".views.Music2Activity" />
+        <activity android:name=".views.CourseDetailsActivity" />
+        <activity android:name=".views.HomeActivity" />
+        <activity android:name=".views.RemindersActivity" />
+        <activity android:name=".views.ChooseTopicActivity" />
+        <activity android:name=".views.SignUpActivity" />
+        <activity android:name=".views.SignInActivity" />
+        <activity android:name=".views.SignInAndSignUpActivity" />
     </application>
 
 </manifest>

@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.haui.phamdai.silentmoon.SignInAndSignUpActivity;
 import com.haui.phamdai.silentmoon.R;
 
 public class SignInActivity extends AppCompatActivity {
@@ -21,7 +20,7 @@ public class SignInActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.buttonLogin_SignIn).setOnClickListener(v -> {
-            Intent intent = new Intent(this, WelcomeActivity.class);
+            Intent intent = new Intent(this, ChooseTopicActivity.class);
             startActivity(intent);
         });
 

@@ -76,8 +76,7 @@
             android:text="@string/sleep_music_upper"
             android:textAlignment="center"
             android:textColor="#98A1BD"
-            android:textSize="14sp"
-            android:textStyle="bold" />
+            android:textSize="14sp" />
     </LinearLayout>
 
     <LinearLayout
